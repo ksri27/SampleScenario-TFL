@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Javascript", "Javascript", "{D7A5FED7-E863-43E5-BCE3-5EBD32F07C50}"
+	ProjectSection(SolutionItems) = preProject
+		caseRibbon.js = caseRibbon.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflow", "Workflow", "{257AC6BB-C1A0-40DB-8BFB-AD1F04C15B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.Workflow.TFL", "D365.Workflow.TFL\D365.Workflow.TFL.csproj", "{AE066551-28AE-48B1-920A-D35F651417D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managed Solution", "Managed Solution", "{4D0A7DA6-9EB0-4D57-B61B-8175A6777FA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{8067B3EE-E6BA-45ED-80CE-71FA26AE4EFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE066551-28AE-48B1-920A-D35F651417D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE066551-28AE-48B1-920A-D35F651417D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE066551-28AE-48B1-920A-D35F651417D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE066551-28AE-48B1-920A-D35F651417D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE066551-28AE-48B1-920A-D35F651417D2} = {257AC6BB-C1A0-40DB-8BFB-AD1F04C15B9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CE554F3-DADD-4683-95A7-0C90088EA322}
+	EndGlobalSection
+EndGlobal
