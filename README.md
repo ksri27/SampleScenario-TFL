@@ -3,10 +3,10 @@ This project includes the necessary package to implement the scenario provided a
 
 # How to build the code
 1. Clone the repository to your local machine.
-2. pdate or manage NuGet packages if you encounter reference issues during the build process for D365.Workflow.TFL (code activity).
+2. Update or manage NuGet packages if you encounter reference issues during the build process for D365.Workflow.TFL (code activity).
 
 # How to Run or Test
-Please refer to the document in the 'Document' folder for instructions on solution import and Test-Driven Development (TDD). 
+Please refer to the document in the 'Document' folder for instructions on solution import and Test-Driven Development (TDD). Additionally, use the solution in the 'Managed Solution' folder to import into PowerApps.
 
 # Assumption
 I have built the solution assuming that each business unit has its own manager, escalation team, and confidential team. All users of the business unit, including agents, should have visibility into cases and follow-up activities for better tracking of cases created against contacts
